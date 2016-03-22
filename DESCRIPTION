@@ -1,0 +1,28 @@
+Package: pathTiMEx
+Type: Package
+Title: Joint Inference of Mutually Exclusive Driver Pathways and their
+    Progression Dynamics
+Description: The implementation of a waiting time model for the evolutionary
+    order constraints among groups of mutually exclusive alterations in tumor
+    progression. The method can be easily applied to any large cancer dataset
+    available as a binary matrix.
+Version: 0.99.0
+Date: 2015-09-28
+Author: Simona Cristea <simona.constantinescu@bsse.ethz.ch>
+Maintainer: Simona Cristea <simona.constantinescu@bsse.ethz.ch>
+Depends:
+    R (>= 3.1)
+Imports:
+    graph (>= 1.48.0),
+    relations (>= 0.6-6),
+    gtools (>= 3.5.0),
+    TiMEx (>= 0.99.0),
+    clusteval (>= 0.1)
+Suggests:
+    knitr
+VignetteBuilder: knitr
+biocViews: Software, StatisticalMethod, SystemsBiology, GraphAndNetwork,
+    Clustering
+License: GPL (>=2)
+URL: https://github.com/cbg-ethz/pathTiMEx
+RoxygenNote: 5.0.1
